@@ -1,0 +1,11 @@
+
+  # Landing Page Institucional
+
+  This is a code bundle for Landing Page Institucional. The original project is available at https://www.figma.com/design/EOt4fWmFfLMh0wdVNZy4MM/Landing-Page-Institucional.
+
+  ## Running the code
+
+  Run `npm i` to install the dependencies.
+
+  Run `npm run dev` to start the development server.
+  
