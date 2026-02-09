@@ -47,7 +47,7 @@ export function HeroSection() {
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mb-8 sm:mb-16 justify-center">
             
-              <ahref="#metodo-dna"
+              <a href="#metodo-dna"
               className="px-6 sm:px-8 py-3 sm:py-4 rounded-lg transition-opacity hover:opacity-90 inline-block"
               style={{
                 backgroundColor: "#2D5589",
