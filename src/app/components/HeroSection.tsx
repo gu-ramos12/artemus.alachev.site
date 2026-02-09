@@ -169,69 +169,6 @@ export function HeroSection() {
                 </div>
               </div>
             </div>
-          </div>
-
-          {/* Right Content - Image with decorative circles */}
-          <div className="relative h-[400px] sm:h-[500px] lg:h-[700px] flex items-center justify-center">
-            {/* Large cyan circle */}
-            <div
-              className="absolute rounded-full"
-              style={{
-                width: "clamp(300px, 50vw, 550px)",
-                height: "clamp(300px, 50vw, 550px)",
-                backgroundColor: "#3CC8C8",
-                opacity: 0.3,
-                top: "50%",
-                left: "50%",
-                transform: "translate(-50%, -50%)",
-              }}
-            />
-
-            {/* Medium blue circle */}
-            <div
-              className="absolute rounded-full"
-              style={{
-                width: "clamp(250px, 40vw, 420px)",
-                height: "clamp(250px, 40vw, 420px)",
-                backgroundColor: "#2D5589",
-                opacity: 0.4,
-                top: "25%",
-                left: "15%",
-              }}
-            />
-
-            {/* Small cyan circle */}
-            <div
-              className="absolute rounded-full"
-              style={{
-                width: "clamp(150px, 25vw, 250px)",
-                height: "clamp(150px, 25vw, 250px)",
-                backgroundColor: "#3CC8C8",
-                opacity: 0.5,
-                bottom: "8%",
-                right: "8%",
-              }}
-            />
-
-            {/* Image */}
-            <div
-              className="relative z-10 rounded-full overflow-hidden"
-              style={{
-                width: "clamp(280px, 60vw, 500px)",
-                height: "clamp(280px, 60vw, 500px)",
-                border: "4px solid #FFFFFF",
-                boxShadow: "0 4px 24px rgba(0, 0, 0, 0.1)",
-              }}
-            >
-              <img
-                src={heroImage}
-                alt="Artemus Alachev - Consultoria"
-                className="w-full h-full object-cover"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
     </section>
   );
 }
