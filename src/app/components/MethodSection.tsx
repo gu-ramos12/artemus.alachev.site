@@ -113,6 +113,7 @@ export function MethodSection() {
 
   return (
     <section
+      id="metodo-dna"
       className="w-full"
       style={{ backgroundColor: "#002130", color: "#FFFFFF" }}
     >
