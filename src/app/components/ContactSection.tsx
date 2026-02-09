@@ -138,7 +138,7 @@ export function ContactSection() {
                       color: "#2D5589",
                     }}
                   >
-                    artemus@alachev.com.br
+                    artemusalachev@gmail.com
                   </a>
                 </div>
               </div>
