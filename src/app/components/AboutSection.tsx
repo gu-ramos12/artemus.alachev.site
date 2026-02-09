@@ -1,5 +1,4 @@
-import { ImageWithFallback } from "./figma/ImageWithFallback";
-import { Mail, Phone, MapPin, Linkedin, Instagram } from "lucide-react";
+import { Linkedin, Instagram } from "lucide-react";
 import artemusPhoto from "@/assets/8e1824253d9ee1e962364ad4cede26976debabd5.png";
 
 export function AboutSection() {
@@ -124,69 +123,40 @@ export function AboutSection() {
               </p>
             </div>
 
-            {/* Contact Info */}
-            <div className="space-y-3 sm:space-y-4 mb-4 sm:mb-6">
-              <div className="flex items-center gap-3 justify-center lg:justify-start">
-                <Mail size={20} style={{ color: "#3CC8C8" }} />
-                <a
-                  href="mailto:artemus@alachev.com.br"
-                  className="hover:underline"
-                  style={{
-                    fontFamily: "var(--font-body)",
-                    fontSize: "clamp(0.875rem, 1.5vw, 1rem)",
-                    color: "#DADADA",
-                  }}
-                >
-                  artemus@alachev.com.br
-                </a>
-              </div>
-
-              <div className="flex items-center gap-3 justify-center lg:justify-start">
-                <Phone size={20} style={{ color: "#3CC8C8" }} />
-                <a
-                  href="tel:+5515997228600"
-                  className="hover:underline"
-                  style={{
-                    fontFamily: "var(--font-body)",
-                    fontSize: "clamp(0.875rem, 1.5vw, 1rem)",
-                    color: "#DADADA",
-                  }}
-                >
-                  +55 (15) 99722-8600
-                </a>
-              </div>
-
-              <div className="flex items-center gap-3 justify-center lg:justify-start">
-                <MapPin size={20} style={{ color: "#3CC8C8" }} />
-                <span
-                  style={{
-                    fontFamily: "var(--font-body)",
-                    fontSize: "clamp(0.875rem, 1.5vw, 1rem)",
-                    color: "#DADADA",
-                  }}
-                >
-                  Sorocaba, SP
-                </span>
-              </div>
-            </div>
-
             {/* Social Links */}
-            <div className="flex gap-4 justify-center lg:justify-start">
-              <a
-                href="#linkedin"
-                className="p-3 rounded-lg transition-opacity hover:opacity-80"
-                style={{ backgroundColor: "#2D5589" }}
+            <div className="text-center lg:text-left">
+              <p
+                className="mb-3"
+                style={{
+                  fontFamily: "var(--font-heading)",
+                  fontWeight: 600,
+                  fontSize: "clamp(1rem, 1.5vw, 1.125rem)",
+                  color: "#FFFFFF",
+                }}
               >
-                <Linkedin size={24} style={{ color: "#FFFFFF" }} />
-              </a>
+                Minhas Redes Sociais
+              </p>
+              <div className="flex gap-4 justify-center lg:justify-start">
+                <a
+                  href="https://www.linkedin.com/in/artemus-alachev/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-3 rounded-lg transition-opacity hover:opacity-80"
+                  style={{ backgroundColor: "#2D5589" }}
+                >
+                  <Linkedin size={24} style={{ color: "#FFFFFF" }} />
+                </a>
 
-              <a
-                href="#instagram"
-                className="p-3 rounded-lg transition-opacity hover:opacity-80"
-                style={{ backgroundColor: "#2D5589" }}
-              >
-                <Instagram size={24} style={{ color: "#FFFFFF" }} />
-              </a>
+                <a
+                  href="https://www.instagram.com/artemusalachev"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-3 rounded-lg transition-opacity hover:opacity-80"
+                  style={{ backgroundColor: "#2D5589" }}
+                >
+                  <Instagram size={24} style={{ color: "#FFFFFF" }} />
+                </a>
+              </div>
             </div>
           </div>
         </div>
